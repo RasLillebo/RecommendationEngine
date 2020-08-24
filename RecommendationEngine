@@ -50,6 +50,7 @@ List <- as.numeric(names(TopCategories))
 
 #Work In progress: Trying to connect the ItemID's stored in TopCategories, with the Categories of Dim_Data.
 TopCategories <- which(apply(Dim_Data, 1, function(List) any(List %in% Dim_Data)))
+#also try 'grep' function
 
 #What UserID's are ranking higher than others?
 
