@@ -1,4 +1,7 @@
 #Generalized recommendation engine based on User ranking, (and further user analysis)
+#  Engines like these are not only employed by frontend of ecommerce, but can also be used in mapping store/warehouse layout: such that items are placed closer together,
+#  when bought more often bought or at the same time. It can also be employed in loyalty Programmes:To reactivate churned costumers by re-engaging them with customised offers 
+#  based on their purchase history.
 
 #Load Packages
 Packages <- c("data.table", "tidyverse", "knitr", "recommenderlab", "stringi", "reshape2", "dplyr", "rts", "plyr")
